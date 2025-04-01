@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    border: 2px black solid;
+    align-items: center;
+    background-color: rgb(110, 99, 143);
+}
+.nav-left{
+    padding-left: 20px;
+    
+}
+.nav-elements{
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    
+}
+.nav-elements:hover{
+    transition-duration: 0.5s;
+    background: green;
+    width: 5px;
+    border-radius: 2px solid red;
+    
+}
+.name{
+    color: white;
+}
+.home{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 85vh;
+    width: 100%;
+}
+.my-image{
+    height: 50vh;
+}
+.home-left{
+    display: inline-block;
+    padding-top: 250px;
+    padding-left: 200px;
+    text-align: right;
+    margin-right: 50px;
+}
+    
+.home-right{
+    display: flex;
+    align-items: center;
+    padding-right: 400px;
+    margin-left: 50px;
+}
+.my-info{
+    font-family: "Montserrat", sans-serif;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.study{
+    border: 2px rgb(110, 99, 143) solid;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    width: 50vh;
+    
+}
+.study:hover{
+    background-color: rgb(32, 114, 149);
+    border: 2px white solid;
+}
+.education-img{
+    height: 200px;
+}
+.skill-img{
+    height: 200px;
+}
+.skill-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+}
+.skill{
+    border: 2px red solid;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.skill:hover{
+    background-color: red;
+}
+.skills{
+    text-align: center;
+    margin: 10px;
+    margin-top: 100px;
+    color: white;
+}
+.social-icon{
+    height: 50px;
+    padding: 10px;
+}
+.contact{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.h2{
+    color: rgb(72, 28, 203);
+}
